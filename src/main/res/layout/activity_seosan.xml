@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/weather_image"
+    tools:context="com.example.weatherapp.Seosan">
+
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="100"
+        android:textSize="100dp"
+        android:layout_centerInParent="true"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="223dp" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:layout_toLeftOf="@+id/tv1"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="68dp"
+        android:textSize="40dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="City"
+        android:layout_toRightOf="@+id/tv1"
+        android:textSize="40dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="254dp"
+        tools:layout_editor_absoluteY="68dp" />
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="86dp"
+        android:text="Sunny"
+        android:textSize="30dp"
+        android:layout_alignParentBottom="true"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="456dp" />
+
+    <TextView
+        android:layout_width="54dp"
+        android:layout_height="84dp"
+        android:layout_alignTop="@+id/tv1"
+        android:layout_alignBottom="@+id/tv1"
+        android:layout_marginTop="-27dp"
+        android:layout_marginEnd="-215dp"
+        android:layout_marginRight="-215dp"
+        android:layout_marginBottom="78dp"
+        android:layout_toStartOf="@+id/tv1"
+        android:layout_toLeftOf="@+id/tv1"
+        android:text="C"
+        android:textSize="60dp"></TextView>
+
+</RelativeLayout>
